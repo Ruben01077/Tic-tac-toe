@@ -1,0 +1,283 @@
+main {
+
+    position: relative;
+
+}
+
+
+
+body {
+
+    height: 100%;
+    margin: 0;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+
+
+#main-div {
+
+    height: 700px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+   position: relative;
+   top: 40px;
+    border: 1px solid;
+    background-color: cornsilk;
+    box-shadow: 2px 2px 20px 1px;
+
+}
+
+div div {
+
+    height: 150px;
+    width: 700px;
+    border: 1px solid;
+
+}
+
+#row1,
+#row2,
+#row3 {
+
+    width: 700px;
+    height: 151px;
+    display: flex;
+    border: none;
+
+
+
+
+
+
+}
+
+#row1,
+div {
+
+    width: 550px;
+    height: 152px;
+    margin-top: 60px;
+
+
+
+}
+
+#row2,
+div {
+
+    width: 550px;
+    height: 152px;
+
+}
+
+#row3,
+div {
+
+    width: 550px;
+    height: 140px;
+    margin: auto;
+
+}
+
+#box2,
+#box5,
+#box8 {
+
+    margin-left: 1px;
+    margin-right: 1px;
+
+
+}
+
+#box4,
+#box5,
+#box6 {
+
+    margin-top: 1px;
+    margin-bottom: 1px;
+
+
+}
+
+#row1 *,
+#row2 *,
+#row3 * {
+
+    width: 182px;
+
+
+
+}
+
+#row1 img {
+
+    width: 140px;
+    margin-left: 20px;
+ 
+
+}
+
+#row2 img {
+
+    width: 140px;
+    margin-left: 20px;
+
+}
+
+
+#row3 img {
+
+    width: 140px;
+    margin-left: 20px;
+
+
+}
+#o{
+
+width: 150px;
+
+}
+
+#x{
+
+    width: 150px;
+}
+
+#lower-body{
+
+display: flex;
+border: none;
+transition: 10s;
+width: 150px;
+position: relative;
+top: 25px;
+
+
+}
+
+#oDiv
+{
+
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(5px 5px 3px  #000000);
+    transition: 0.2s;
+    position: relative;
+    right: 190px;
+}
+
+#xDiv
+{
+    
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(5px 5px 3px #000000);
+    transition: 0.2s;
+    position: relative;
+    right: 65px;
+}
+
+#oDiv:active, #xDiv:active{
+
+
+    filter: drop-shadow(0px 0px 0px  #000000);
+    
+
+}
+
+#selectionDiv{
+
+    width: 150px;
+    position: relative;
+    right: 125px;
+border: none;
+text-align: center;
+
+}
+
+#selectionImg{
+
+
+    width: 100px;
+    margin-bottom: 10px;
+    
+
+}
+
+#selectImgDiv{
+
+width: 105px;
+height: 100px;
+border: none;
+
+}
+
+#selectImgText{
+    position: relative;
+    width: 105px;
+    height: 20px;
+    border: none;
+    right: 10px;
+
+    
+    }
+
+    #title{
+margin: 0;
+font-size: 150px;
+display: inline-block;
+color: rgb(6, 34, 118);
+
+    }
+
+    #reset{
+
+        position: relative;
+        top: 80px;
+        
+        font-size: 60px;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 2px 2px 2px 2px;
+        cursor: pointer;
+        transition: 0.2s;
+
+    }
+
+    #reset:active{
+
+        box-shadow: 0px 0px 0px 0px;
+
+
+
+
+    }
+
+
+#youWinGif{
+
+
+position:absolute;
+left: 120px;
+display: none;
+
+}
+
+#win{
+    position:absolute;
+
+left: -380px;
+top: -500px;
+width: 1500px;
+display: none;
+
+}
