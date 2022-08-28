@@ -509,12 +509,6 @@ function draw() {
 
 
 
-if((box1_img.src), (box2_img.src), (box3_img.src), (box4_img.src), (box5_img.src), (box6_img.src), (box7_img.src), (box8_img.src), (box9_img.src) === o.src || x.src){
-
-
-alert("")
-
-}
 
 
 
@@ -523,5 +517,5 @@ alert("")
 
 selectionImgChange()
 draw()
-tie()
+
 
