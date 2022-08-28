@@ -513,9 +513,9 @@ function draw() {
 
 
 
-
-
 selectionImgChange()
 draw()
+
+
 
 
